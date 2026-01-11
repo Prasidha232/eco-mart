@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoMart | Earth-First Marketplace</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="top-announcement">
+        <p>🍃 For those who seek better, cleaner • Worldwide Plastic-Free Shipping</p>
+    </div>
+
+    <header class="main-header">
+        <div class="header-container">
+            <div class="brand">
+                <a href="index.html" class="logo-box">EcoMart<span>.</span></a>
+            </div>
+            
+            <nav class="navigation">
+                <ul>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">Our Story</a></li>
+                    <li><a href="blog.html">Journal</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Sustainability Guide</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-icons">
+                <button class="icon-btn" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <button class="icon-btn" aria-label="Profile">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                </button>
+                <button class="icon-btn" aria-label="Cart">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-slider-section">
+            <div class="slider-container">
+                
+                <div class="hero-slide active">
+                    <img src="image.jpg" alt="Home Decor" class="hero-bg">
+                    <div class="hero-overlay-content">
+                        <span class="eyebrow white">EST. 2026</span>
+                        <h1>Daily Rituals</h1>
+                        <p>Meticulously curated earth-first alternatives for a mindful home.</p>
+                        <a href="shop.html" class="pill-btn">PERSONAL CARE <span class="arrow">→</span></a>
+                    </div>
+                </div>
+
+                <div class="hero-slide">
+                    <img src="image2.jpg" alt="Wood Craft" class="hero-bg">
+                    <div class="hero-overlay-content">
+                        <span class="eyebrow white">CONSCIOUS CRAFT</span>
+                        <h1>Organic Living</h1>
+                        <p>Hand-crafted pieces made from reclaimed, FSC-certified walnut.</p>
+                        <a href="shop.html" class="pill-btn">HOME & LIVING <span class="arrow">→</span></a>
+                    </div>
+                </div>
+
+                <div class="hero-slide">
+                    <img src="image1.jpg" alt="Linen Fashion" class="hero-bg">
+                    <div class="hero-overlay-content">
+                        <span class="eyebrow white">ETHICAL STYLE</span>
+                        <h1>Pure Textiles</h1>
+                        <p>Raw, unbleached hemp and organic cotton for a slower future.</p>
+                        <a href="shop.html" class="pill-btn">SHOP FASHION <span class="arrow">→</span></a>
+                    </div>
+                </div>
+
+                <div class="slider-dots">
+                    <span class="dot active" onclick="currentSlide(0)"></span>
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                </div>
+
+                <div class="vertical-social">
+                    <a href="#">FB</a>
+                    <a href="#">IG</a>
+                    <a href="#">PI</a>
+                    <div class="discount-vertical">GET 10% OFF</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="category-masonry-section">
+            <div class="category-header">
+                <h2>Shop By <span class="accent-serif">Category</span></h2>
+            </div>
+
+            <div class="masonry-grid-container">
+                <div class="masonry-item large">
+                    <div class="masonry-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1540932239986-30128078f3c5?auto=format&fit=crop&w=1200" alt="Desk Sets">
+                    </div>
+                    <div class="masonry-label">House Decor</div>
+                </div>
+
+                <div class="masonry-column">
+                    <div class="masonry-item small">
+                        <div class="masonry-img-wrap">
+                            <img src="bag.jpg" alt="Accessories">
+                        </div>
+                        <div class="masonry-label">Accessories</div>
+                    </div>
+                    <div class="masonry-item small">
+                        <div class="masonry-img-wrap">
+                            <img src="stationary.png" alt="Stationery">
+                        </div>
+                        <div class="masonry-label">Stationery</div>
+                    </div>
+                </div>
+
+                <div class="masonry-item tall">
+                    <div class="masonry-img-wrap">
+                        <img src="cloth.jpg" alt="Clothes">
+                    </div>
+                    <div class="masonry-label">Clothes</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<section class="video-testimonial-section">
+    <div class="testimonial-container">
+        
+        <div class="testimonial-content">
+            <div class="vertical-label">WHAT THEY'RE SAYING</div>
+            
+            <div class="quote-cards-stack">
+                <div class="quote-card">
+                    <p>"EcoMart is reinventing the art of sustainable living."</p>
+                    <span class="source">— DESIGN WEEK</span>
+                </div>
+                <div class="quote-card">
+                    <p>"Made to elevate your conscious workspace effortlessly."</p>
+                    <span class="source">— COOL MATERIAL</span>
+                </div>
+                <div class="quote-card active">
+                    <p>"Will satisfy your appetite for clean, earth-first aesthetics."</p>
+                    <span class="source">— DESIGN TAXI</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-wrapper">
+            <div class="video-frame">
+                <video autoplay muted loop playsinline class="custom-video">
+                    <source src="lcloth.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="video-controls-overlay">
+                    <button class="play-btn">Explore More <span>→</span></button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="process-section">
+    <div class="wave-divider">
+        <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 30C240 10 480 50 720 30C960 10 1200 50 1440 30V0H0V30Z" fill="#fbfbfb"/>
+            <path d="M0 50C300 10 600 90 900 50C1200 10 1440 50 1440 50" stroke="#FFFFFF" stroke-width="1.5" fill="transparent"/>
+        </svg>
+    </div>
+
+    <div class="process-container">
+        <div class="process-text-col">
+            <div class="text-content">
+                <p class="process-description">
+                    Our design approach is driven by our modern habits; micro-interactions with both devices & analog tools, the need for ergonomics & performance from simple everyday objects. All with the goal to produce sensory mindful experiences.
+                </p>
+            </div>
+            <div class="small-process-img">
+                <img src="s.jpg" alt="Design tools and palette">
+            </div>
+        </div>
+
+        <div class="process-feature-col">
+            <div class="large-process-img">
+                <img src="p.jpg" alt="Handcrafted process">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <div class="floating-chat-box">
+        <span class="chat-icon">💬</span> Chat <span class="chat-count">1</span>
+    </div>
+
+    <script>
+        let slideIndex = 0;
+        const slides = document.querySelectorAll('.hero-slide');
+        const dots = document.querySelectorAll('.dot');
+
+        function showSlides(n) {
+            if (n >= slides.length) slideIndex = 0;
+            if (n < 0) slideIndex = slides.length - 1;
+            
+            slides.forEach(s => s.classList.remove('active'));
+            dots.forEach(d => d.classList.remove('active'));
+            
+            slides[slideIndex].classList.add('active');
+            dots[slideIndex].classList.add('active');
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function autoPlay() {
+            slideIndex++;
+            showSlides(slideIndex);
+        }
+
+        setInterval(autoPlay, 3000); // Fixed: 3 seconds for instant-feel switch
+    </script>
+</body>
+</html>
